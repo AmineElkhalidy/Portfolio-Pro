@@ -4,14 +4,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    margin: 70px 0 50px 0;
 }
 
 .contact-me-parent
 {
     max-width: 1000px;
     width: 70%;
-    /* background-color: green; */
 }
 
 .contact-me-card

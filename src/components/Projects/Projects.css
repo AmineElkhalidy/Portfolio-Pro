@@ -74,11 +74,12 @@
 .project-profile
 {
     width: 50%;
-    background-image: url('../../assets/Projects/crypto.png');
-    background-size: cover;
-    background-position: center;
-    
+}
 
+.project-profile img
+{
+    height: 100% !important;
+    object-fit: cover;
 }
 
 .swiper-button-next {

@@ -97,8 +97,9 @@
     padding-left: 0px; 
 }
 
-.colz .colz-icon i:hover{
+.colz .colz-icon a > i:hover{
     transform: scale(1.5);
+    color: orangered;
 }
 
 /* ----- BREAK POINTS ----- */

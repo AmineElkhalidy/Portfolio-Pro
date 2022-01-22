@@ -61,8 +61,8 @@ const Profile = () => {
                    Projects
                </button>
                 
-              <a className='' href='./Amine-Elkhalidy.pdf' download='Amine-Elkhalidy.pdf'>
-                <button className='btn highlighted-btn'>
+              <a href='../Amine-Elkhalidy.pdf' download='Amine-Elkhalidy.pdf'>
+                <button className='btn highlighted-btn' download>
                     Get Resume
                 </button>
               </a>

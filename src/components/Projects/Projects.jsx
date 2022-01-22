@@ -11,6 +11,7 @@ import SwiperCore, {
     Navigation
   } from 'swiper';
 import { Fade } from 'react-reveal';
+import pathToImage from '../../assets/Projects/crypto.png';
 
   
   // install Swiper modules
@@ -21,7 +22,7 @@ import { Fade } from 'react-reveal';
     return (
       <>
           <div className='project-profile'>
-              {/* <img src={image} alt='not working'/> */}
+              <img src={pathToImage} alt='Not showing'/>
           </div>
 
           <div className='project-details'>

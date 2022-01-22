@@ -13,11 +13,12 @@ const Container = () => {
 
     
   return (
-  <div className='portfolio-container'>
+      <div className='portfolio-container'>
       {
           mapAllScreens()
       }
-  </div>
+      </div>
+  
   );
 };
 
