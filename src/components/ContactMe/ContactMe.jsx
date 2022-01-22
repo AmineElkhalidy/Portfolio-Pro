@@ -44,19 +44,19 @@ const fadeInSubscription = ScrollService.currentScreenFadeIn.subscribe(fadeInScr
             </h2>
 
             <div className="social-media-accounts">
-              <a href='#' target='_blank'>
+              <a href='https://www.facebook.com/amine.elkhalidy.73/' target='_blank'>
                 <i className="ri-facebook-fill contact-me-icon"></i>
               </a>
 
-              <a href='#' target='_blank'>
+              <a href='https://twitter.com/AmineElkhalidy' target='_blank'>
                 <i className="ri-twitter-fill contact-me-icon"></i>
               </a>
 
-              <a href='#' target='_blank'>
+              <a href='https://github.com/AmineElkhalidy?tab=repositories' target='_blank'>
                 <i className="ri-github-fill contact-me-icon"></i>
               </a>
 
-              <a href='#' target='_blank'>
+              <a href='https://www.linkedin.com/in/amine-elkhalidy-1a2a15209/' target='_blank'>
                 <i className="ri-linkedin-fill contact-me-icon"></i>
               </a>
           </div>

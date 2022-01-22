@@ -10,19 +10,19 @@ const Profile = () => {
         <div className='profile-details'>
             <div className='colz'>
                 <div className='colz-icon'>
-                    <a href='#' target='_blank'>
+                    <a href='https://www.facebook.com/amine.elkhalidy.73/' target='_blank'>
                         <i className="ri-facebook-fill"></i>
                     </a>
 
-                    <a href='#' target='_blank'>
+                    <a href='https://twitter.com/AmineElkhalidy' target='_blank'>
                         <i className="ri-twitter-fill"></i>
                     </a>
 
-                    <a href='#' target='_blank'>
+                    <a href='https://github.com/AmineElkhalidy?tab=repositories' target='_blank'>
                         <i className="ri-github-fill"></i>
                     </a>
 
-                    <a href='#' target='_blank'>
+                    <a href='https://www.linkedin.com/in/amine-elkhalidy-1a2a15209/' target='_blank'>
                         <i className="ri-linkedin-fill"></i>
                     </a>
                 </div>
