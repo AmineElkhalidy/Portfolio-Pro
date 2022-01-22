@@ -11,7 +11,6 @@ import SwiperCore, {
     Navigation
   } from 'swiper';
 import { Fade } from 'react-reveal';
-import pathToImage from '../../assets/Projects/crypto.png';
 
   
   // install Swiper modules
@@ -22,7 +21,7 @@ import pathToImage from '../../assets/Projects/crypto.png';
     return (
       <>
           <div className='project-profile'>
-              <img src={pathToImage} alt='Not showing'/>
+              
           </div>
 
           <div className='project-details'>
@@ -71,8 +70,8 @@ const PROJECTS = [
         id: 'project-02',
         name: 'AI News Reader',
         description: 'a simple web project, powered by Alan which is a voice assistant, that helps you to get the latest news with a simple voice command from you, and can also read it for you, for more info visit the website',
-        technologies: ['Alan-AI', 'React Js', 'Material UI'],
-        image: '../../assets/Projects/ai-news-reader.png',
+        technologies: ['Alan-AI', 'React.js', 'Material UI'],
+        image: "../../assets/Projects/ai-news-reader-min.png",
         linkToCode: "https://github.com/AmineElkhalidy/AI-Reader",
         linkToProject: "https://aireader.netlify.app/"
     },
@@ -80,8 +79,8 @@ const PROJECTS = [
         id: 'project-01',
         name: 'Shopping Store',
         description: 'a simple web project, which allows you to add products to your cart, update their quantities, remove them..., it also gives you the opportunity to pay online...',
-        technologies: ['React Js', 'Commerce.js', 'stripe.js'],
-        image: '../../assets/Projects/shopping-store.png',
+        technologies: ['React.js', 'Commerce.js', 'stripe.js', 'Styled Components'],
+        image: '../../assets/Projects/shopping-store-min.png',
         linkToCode: "https://github.com/AmineElkhalidy/Shop-Store",
         linkToProject: "https://shop-store.netlify.app/"
     },
@@ -90,8 +89,8 @@ const PROJECTS = [
         id: 'project-03',
         name: 'Crypto For Transactions',
         description: "it's a web 3.0 app, which allows you to send transactions throughout the blockchain network, after connecting to your wallet.",
-        technologies: ['React Js', 'Tailwind Css', 'Solidity', 'hardhat'],
-        image: '../../assets/Projects/crypto.PNG',
+        technologies: ['React.js', 'Tailwind Css', 'Solidity', 'hardhat'],
+        image: '../../assets/Projects/crypto-min.png',
         linkToCode: "https://github.com/AmineElkhalidy/Krypto",
         linkToProject: "https://krypto-app.netlify.app/"
     },

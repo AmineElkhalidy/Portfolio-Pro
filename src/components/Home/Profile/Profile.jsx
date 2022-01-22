@@ -57,7 +57,7 @@ const Profile = () => {
             </div>
 
             <div className='profile-options'>
-               <button className='btn primary-btn'>
+               <button onClick={() => "window.location.href='#Projects';"} className='btn primary-btn'>
                    Projects
                </button>
                 

@@ -17,12 +17,14 @@
 {
     width: 100%;
     box-shadow: 0 0 20px -2px #1f2235;
+    height: 100%;
 }
 
 .project-details
 {
     width: 50%;
     padding: 30px;
+    height: 100%;
 }
 
 .project-name
@@ -68,18 +70,15 @@
 {
     display: flex;
     width: 100%;
-    height: 100% !important;
+    height: 100%;
 }
 
 .project-profile
 {
     width: 50%;
-}
-
-.project-profile img
-{
-    height: 100% !important;
-    object-fit: cover;
+    background-image: url('../../assets/Projects/coding-min.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 .swiper-button-next {
