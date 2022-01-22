@@ -10,6 +10,7 @@ import './Projects.css';
 import SwiperCore, {
     Navigation
   } from 'swiper';
+import { Fade } from 'react-reveal';
 
   
   // install Swiper modules
@@ -113,7 +114,7 @@ const Projects = (props) => {
         title='Projects'
         subHeading='Some Of My Works'
         />
-
+        <Fade right>
         <div className='projects-card'>
             <Swiper navigation={true}>
                 {PROJECTS.map((project) => (
@@ -130,6 +131,7 @@ const Projects = (props) => {
                 ))}
             </Swiper>
         </div>
+        </Fade>
       </div>
   </div>
   );

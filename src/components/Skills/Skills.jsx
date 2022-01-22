@@ -1,4 +1,5 @@
 import ScreenHeading from '../../Utilities/ScreenHeading/ScreenHeading';
+import { Zoom } from 'react-reveal';
 import './Skills.css';
 
 
@@ -18,7 +19,7 @@ const Skills = (props) => {
         title='Skills'
         subHeading="What I'm Good At ?"
         />
-
+        <Zoom left>
         <div className='skills-card'>
           <div className='skill-container'>
             <div className='skill-name-container'>
@@ -53,6 +54,7 @@ const Skills = (props) => {
             </ul>
           </div>
         </div>
+        </Zoom>
       </div>
   </div>
   );

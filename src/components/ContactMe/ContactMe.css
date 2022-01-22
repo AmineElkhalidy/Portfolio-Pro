@@ -147,6 +147,11 @@
 
 @media screen and (max-width: 1110px)
 {
+    .contact-me-parent
+    {
+        width: 88%;
+    }
+
     .title
     {
         font-size: 1.2rem;

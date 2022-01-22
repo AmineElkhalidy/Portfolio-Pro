@@ -3,6 +3,7 @@ import ScrollService from "../../Utilities/ScrollService";
 import Animations from "../../Utilities/Animations";
 import { useForm, ValidationError } from "@formspree/react";
 import './ContactMe.css';
+import { Zoom } from "react-reveal";
 
 
 const ContactMe = (props) => {
@@ -24,6 +25,7 @@ const fadeInSubscription = ScrollService.currentScreenFadeIn.subscribe(fadeInScr
         subHeading='Keep In Touch'
         />
 
+        <Zoom right>
         <div className="contact-me-card">
           <div className="contact-me-details">
             <h2 className="title">
@@ -93,6 +95,7 @@ const fadeInSubscription = ScrollService.currentScreenFadeIn.subscribe(fadeInScr
             </div>
           </form>
         </div>
+        </Zoom>
       </div>
   </div>
   );

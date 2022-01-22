@@ -3,6 +3,7 @@ import ScreenHeading from '../../Utilities/ScreenHeading/ScreenHeading';
 import ScrollService from '../../Utilities/ScrollService';
 import Animations from '../../Utilities/Animations';
 import './AboutMe.css';
+import { Fade } from 'react-reveal';
 const AboutMe = (props) => {
     let fadeInScreenHandler = (screen) => {
         if(!screen.fadeScreen !== props.id)
@@ -46,7 +47,7 @@ const AboutMe = (props) => {
         title='About Me'
         subHeading='Why Choose Me ?'
         />
-
+        <Fade left>
         <div className='about-me-card'>
             <div className='about-me-profile'>
 
@@ -78,6 +79,7 @@ const AboutMe = (props) => {
                 </div>
             </div>
         </div>
+        </Fade>
       </div>
   </div>
   );
