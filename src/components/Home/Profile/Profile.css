@@ -9,6 +9,7 @@
 .profile-parent{
     display: flex;
     align-items: center;
+    column-gap: 5rem;
     color: aliceblue;
 }
 
@@ -67,7 +68,7 @@
     border-radius: 50%;
     height: 380px;
     width: 380px;
-    margin: 0 0px 0 100px;
+    /* margin: 0 0px 0 100px; */
 }
 
 .profile-picture-background{
@@ -103,8 +104,14 @@
 /* ----- BREAK POINTS ----- */
 @media screen and (max-width: 1110px) 
 {
-    .profile-picture{
-        margin: 0 0 0 80px;
+    .profile-container
+    {
+        column-gap: 0;
+    }
+    
+    .profile-details
+    {
+        width: 60%;
     }
 
     .profile-details-name{
@@ -124,10 +131,16 @@
 
 @media screen and (max-width: 910px)
 {
+    .profile-container
+    {
+        column-gap: 0;
+    }
+    .profile-details, .profile-picture{
+        width: 50%;
+    }
     .profile-picture{
         height: 320px;
         width: 320px;
-        margin:  0 0 0 4px;
     }
 }
 
