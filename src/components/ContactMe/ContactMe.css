@@ -1,0 +1,174 @@
+.contact-me-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.contact-me-parent
+{
+    max-width: 1000px;
+    width: 70%;
+    /* background-color: green; */
+}
+
+.contact-me-card
+{
+    display: flex;
+    width: 100%;
+    box-shadow: 0 0 20px -2px #1f2235;
+    background-color: #1f2235;
+}
+
+.contact-me-details, .contact-me-form
+{
+    width: 50%;
+    padding: 50px;
+    color: aliceblue;
+}
+
+.title
+{
+    font-family: "Poppins Medium";
+    font-size: 1.5rem;
+}
+
+.contact-details 
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    margin-bottom: 50px;
+}
+
+.contact-me-item
+{
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    font-family: "Poppins Light";
+    font-size: 1.15rem;
+}
+
+.contact-me-icon
+{
+    font-size: 1.2rem;
+}
+
+.social-media-accounts
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-media-accounts a
+{
+    color: aliceblue;
+}
+
+.social-media-accounts a:hover
+{
+    color: orangered;
+}
+
+.contact-me-form
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+
+.input-field
+{
+    width: 100%;
+    background-color: white;
+    height: 50px;
+    border-radius: 0.5rem;
+}
+
+.input-field input
+{
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    padding: 0 10px;
+}
+
+.input-field-textarea
+{
+    width: 100%;
+    background-color: white;
+    height: 150px;
+    border-radius: 0.5rem;
+}
+
+.input-field-textarea textarea
+{
+    background: none;
+    outline: none;
+    border: none;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+}
+
+.contact-me-actions
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.button
+{
+    cursor: pointer;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    outline: none;
+    border: none;
+    background: orangered;
+    color: white;
+    font-family: "Poppins Medium";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 0.5rem;
+}
+
+.button:hover
+{
+    background-color: #fff;
+    color: orangered;
+}
+
+@media screen and (max-width: 1110px)
+{
+    .title
+    {
+        font-size: 1.2rem;
+    }
+
+    .contact-me-details
+    {
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 898px)
+{
+    .contact-me-card
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact-me-details, .contact-me-form
+    {
+        width: 80%;
+    }
+}

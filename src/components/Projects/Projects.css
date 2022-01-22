@@ -1,0 +1,143 @@
+.projects-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.projects-parent
+{
+    max-width: 1000px;
+    width: 70%;
+}
+
+.projects-card
+{
+    width: 100%;
+    box-shadow: 0 0 20px -2px #1f2235;
+}
+
+.project-details
+{
+    width: 50%;
+    padding: 30px;
+}
+
+.project-name
+{
+    font-family: "Poppins Bold";
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.project-description
+{
+    font-family: "Poppins Light";
+}
+
+.project-highlights
+{
+    margin: 80px 0;
+}
+
+.project-highlights-title
+{
+    font-family: "Poppins Bold";
+}
+
+.project-highlights-list
+{
+    padding: 0;
+}
+
+.highlight-name
+{
+    display: flex;
+    align-items: center;
+}
+
+.project-options .highlighted-btn
+{
+    margin-left: 30px;
+}
+
+.swiper-slide
+{
+    display: flex;
+    width: 100%;
+    height: 100% !important;
+}
+
+.project-profile
+{
+    width: 50%;
+    background-image: url('../../assets/Projects/crypto.png');
+    background-size: cover;
+    background-position: center;
+    
+
+}
+
+.swiper-button-next {
+    background-image: url('../../assets/Arrows/arrow-right-line.svg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+}
+  
+.swiper-button-next::after {
+    display: none;
+}
+
+.swiper-button-prev {
+    background-image: url('../../assets/Arrows/arrow-left-line.svg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+  }
+  
+  .swiper-button-prev::after {
+    display: none;
+  }
+
+  @media screen and (max-width: 1110px)
+{
+    .projects-parent
+    {
+        width: 88%;
+    }
+}
+
+@media screen and (max-width: 898px)
+{
+    .project-profile
+    {
+        display: none;
+    }
+
+    .project-details{
+        width: 100%;
+        margin: 0 15px;
+    }
+}
+
+@media screen and (max-width: 500px)
+{
+    .project-options
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project-options .highlighted-btn
+    {
+        margin: 24px 0 0 0 !important;
+    }
+
+    .project-options button{
+        width: 100%;
+    }
+}

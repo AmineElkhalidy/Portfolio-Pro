@@ -1,0 +1,89 @@
+.skills-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.skills-parent
+{
+    max-width: 1000px;
+    width: 70%;
+}
+
+.skills-card{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-shadow: 0 0 20px -2px #1f2235;
+}
+
+.skill-container
+{
+    padding: 50px;
+    margin: 70px 0;
+}
+
+.skill-name
+{
+    display: flex;
+    align-items: center;
+    color: black;
+    font-family: "Poppins ExtraBold";
+    font-size: 1.25rem;
+    column-gap: .5rem;
+}
+
+.skill-icon
+{
+    font-size: 1.5rem;
+}
+
+.skills-list{
+    padding: 0 25px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.skill-item{
+    font-family: "Poppins Medium";
+    font-size: 1.15rem;
+    color: #1f2235;
+}
+
+@media screen and (max-width: 1110px)
+{
+    .skills-parent{
+        width: 88%;
+    }
+}
+
+@media screen and (max-width: 870px)
+{
+    .skills-card
+    {
+        flex-direction: column;
+    }
+    
+    .skill-container{
+        padding: 25px;
+        margin: 0;
+        text-align: center;
+    }
+
+    .skill-name
+    {
+        justify-content: center;
+    }
+
+    .skills-list{
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        column-gap: 1.5rem;
+    }
+}
