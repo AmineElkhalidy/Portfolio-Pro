@@ -100,8 +100,8 @@ const PROJECTS = [
         description: "It's a landing page that was token from startuplanding.redq.io website, and recreated with Next.js framework in addition to other libraries and styling frameworks.",
         technologies: ['Next.js', 'Theme-ui', 'react-multi-carousel'],
         image: '../../assets/Projects/crypto-min.png',
-        linkToCode: "https://github.com/AmineElkhalidy/Krypto",
-        linkToProject: "https://krypto-app.netlify.app/"
+        linkToCode: "https://github.com/AmineElkhalidy/Landing-Page",
+        linkToProject: "https://landing-page-startup.vercel.app/"
     },
 
 ];
