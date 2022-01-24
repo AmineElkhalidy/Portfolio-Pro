@@ -25,7 +25,7 @@ import LandingPage from '../../assets/Projects/coding-min.jpg';
     return (
       <>
           <div className='project-profile'>
-              <img src={image} alt='Project image' />
+              {/* <img src={image} alt='Project image' /> */}
           </div>
 
           <div className='project-details'>

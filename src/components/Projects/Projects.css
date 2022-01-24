@@ -76,17 +76,17 @@
 .project-profile
 {
     width: 50%;
-    /* background-image: url('../../assets/Projects/coding-min.jpg'); */
-    /* background-size: cover;
-    background-position: center; */
+    background-image: url('../../assets/Projects/coding-min.jpg');
+    background-size: cover;
+    background-position: center;
 
 }
 
-.project-profile img
+/* .project-profile img
 {
     height: 100%;
     object-fit: cover;
-}
+} */
 .swiper-button-next {
     background-image: url('../../assets/Arrows/arrow-right-line.svg');
     background-repeat: no-repeat;
