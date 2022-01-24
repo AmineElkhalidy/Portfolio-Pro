@@ -85,7 +85,7 @@ const PROJECTS = [
         description: 'A simple web project, which allows you to add products to your cart, update their quantities, remove them..., it also gives you the opportunity to pay online...',
         technologies: ['React.js', 'Commerce.js', 'stripe.js', 'Styled Components'],
         image: ShopStore,
-        linkToCode: "https://github.com/AmineElkhalidy/Shop-Store",
+        linkToCode: "https://github.com/AmineElkhalidy/Shopping-App",
         linkToProject: "https://shop-store.netlify.app/"
     },
     
