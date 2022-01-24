@@ -74,7 +74,7 @@ const Profile = () => {
 
         <div className='profile-picture'>
             <div className='profile-picture-background'>
-                Amine Elkhalidy
+                {/* Amine Elkhalidy */}
             </div>
         </div>
       </div>

@@ -75,7 +75,7 @@
     height:92%;
     width: 92%;
     border-radius: 50%;
-    background-color: orangered;
+    background-image: url('../../../assets/Home/Profile/anonymous-avatar.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
