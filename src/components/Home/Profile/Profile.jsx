@@ -57,12 +57,15 @@ const Profile = () => {
             </div>
 
             <div className='profile-options'>
-               <button onClick={() => "window.location.href='#Projects';"} className='btn primary-btn'>
+               <button onClick={(e) => {
+                   e.preventDefault();
+                   window.location.href='#Projects';
+               }} className='btn primary-btn'>
                    Projects
                </button>
                 
               <a href='../Amine-Elkhalidy.pdf' download='Amine-Elkhalidy.pdf'>
-                <button className='btn highlighted-btn' download>
+                <button className='btn highlighted-btn'>
                     Get Resume
                 </button>
               </a>

@@ -69,7 +69,7 @@ const PROJECTS = [
     {
         id: 'project-02',
         name: 'AI News Reader',
-        description: 'a simple web project, powered by Alan which is a voice assistant, that helps you to get the latest news with a simple voice command from you, and can also read it for you, for more info visit the website',
+        description: 'A simple web project, powered by Alan which is a voice assistant, that helps you to get the latest news with a simple voice command from you, and can also read it for you, for more info visit the website',
         technologies: ['Alan-AI', 'React.js', 'Material UI'],
         image: "../../assets/Projects/ai-news-reader-min.png",
         linkToCode: "https://github.com/AmineElkhalidy/AI-Reader",
@@ -78,7 +78,7 @@ const PROJECTS = [
     {
         id: 'project-01',
         name: 'Shopping Store',
-        description: 'a simple web project, which allows you to add products to your cart, update their quantities, remove them..., it also gives you the opportunity to pay online...',
+        description: 'A simple web project, which allows you to add products to your cart, update their quantities, remove them..., it also gives you the opportunity to pay online...',
         technologies: ['React.js', 'Commerce.js', 'stripe.js', 'Styled Components'],
         image: '../../assets/Projects/shopping-store-min.png',
         linkToCode: "https://github.com/AmineElkhalidy/Shop-Store",
@@ -88,8 +88,17 @@ const PROJECTS = [
     {
         id: 'project-03',
         name: 'Crypto For Transactions',
-        description: "it's a web 3.0 app, which allows you to send transactions throughout the blockchain network, after connecting to your wallet.",
+        description: "It's a web 3.0 app, which allows you to send transactions throughout the blockchain network, after connecting to your wallet.",
         technologies: ['React.js', 'Tailwind Css', 'Solidity', 'hardhat'],
+        image: '../../assets/Projects/crypto-min.png',
+        linkToCode: "https://github.com/AmineElkhalidy/Krypto",
+        linkToProject: "https://krypto-app.netlify.app/"
+    },
+    {
+        id: 'project-04',
+        name: 'Startup Landing Page',
+        description: "It's a landing page that was token from startuplanding.redq.io website, and recreated with Next.js framework in addition to other libraries and styling frameworks.",
+        technologies: ['Next.js', 'Theme-ui', 'react-multi-carousel'],
         image: '../../assets/Projects/crypto-min.png',
         linkToCode: "https://github.com/AmineElkhalidy/Krypto",
         linkToProject: "https://krypto-app.netlify.app/"
