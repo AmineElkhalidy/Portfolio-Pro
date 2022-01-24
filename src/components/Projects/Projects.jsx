@@ -16,12 +16,16 @@ import { Fade } from 'react-reveal';
   // install Swiper modules
   SwiperCore.use([Navigation]);
 
+import AiNewsReader from '../../assets/Projects/ai-news-reader-min.png';
+import ShopStore from '../../assets/Projects/shopping-store-min.png';
+import Krypt from '../../assets/Projects/crypto-min.png';
+import LandingPage from '../../assets/Projects/coding-min.jpg';
 
   const Project = ({name, image, description, technologiesList, linkToCode, linkToProject}) => {
     return (
       <>
           <div className='project-profile'>
-              
+              <img src={image} alt='Project image' />
           </div>
 
           <div className='project-details'>
@@ -71,7 +75,7 @@ const PROJECTS = [
         name: 'AI News Reader',
         description: 'A simple web project, powered by Alan which is a voice assistant, that helps you to get the latest news with a simple voice command from you, and can also read it for you, for more info visit the website',
         technologies: ['Alan-AI', 'React.js', 'Material UI'],
-        image: "../../assets/Projects/ai-news-reader-min.png",
+        image: AiNewsReader,
         linkToCode: "https://github.com/AmineElkhalidy/AI-Reader",
         linkToProject: "https://aireader.netlify.app/"
     },
@@ -80,7 +84,7 @@ const PROJECTS = [
         name: 'Shopping Store',
         description: 'A simple web project, which allows you to add products to your cart, update their quantities, remove them..., it also gives you the opportunity to pay online...',
         technologies: ['React.js', 'Commerce.js', 'stripe.js', 'Styled Components'],
-        image: '../../assets/Projects/shopping-store-min.png',
+        image: ShopStore,
         linkToCode: "https://github.com/AmineElkhalidy/Shop-Store",
         linkToProject: "https://shop-store.netlify.app/"
     },
@@ -90,7 +94,7 @@ const PROJECTS = [
         name: 'Crypto For Transactions',
         description: "It's a web 3.0 app, which allows you to send transactions throughout the blockchain network, after connecting to your wallet.",
         technologies: ['React.js', 'Tailwind Css', 'Solidity', 'hardhat'],
-        image: '../../assets/Projects/crypto-min.png',
+        image: Krypt,
         linkToCode: "https://github.com/AmineElkhalidy/Krypto",
         linkToProject: "https://krypto-app.netlify.app/"
     },
@@ -99,7 +103,7 @@ const PROJECTS = [
         name: 'Startup Landing Page',
         description: "It's a landing page that was token from startuplanding.redq.io website, and recreated with Next.js framework in addition to other libraries and styling frameworks.",
         technologies: ['Next.js', 'Theme-ui', 'react-multi-carousel'],
-        image: '../../assets/Projects/crypto-min.png',
+        image: LandingPage,
         linkToCode: "https://github.com/AmineElkhalidy/Landing-Page",
         linkToProject: "https://landing-page-startup.vercel.app/"
     },

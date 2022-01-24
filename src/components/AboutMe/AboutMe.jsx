@@ -16,7 +16,7 @@ const AboutMe = (props) => {
     const fadeInSubscription = ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
 
     const SCREEN_CONSTANTS = {
-        description: 'Front-End web developer with background knowledge of MERN stacks with redux, along with a strong knowledge of building efficient, well designed applications with Next Js . Strong professional with a BSC willing to be an asset for an organization.',
+        description: "Front-End web developer with background knowledge of MERN stacks with redux, along with a strong knowledge of building efficient, well designed applications with React.js and it's framework Next.js . Strong professional with a BSC willing to be an asset for an organization.",
         highlights: {
             bullets: [
                 "Front-End web developer",
