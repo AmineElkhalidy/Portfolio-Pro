@@ -111,7 +111,7 @@ const PROJECTS = [
     {
         id: 'project-05',
         name: 'Tesla Clone',
-        description: "In this project, I tried to clone the official website of Tesla Electric motors.",
+        description: "In this project, I tried to make an approximated website design to the one of Tesla Electric motors, using a set of technologies that is listed down below, i hope you like it.",
         technologies: ['React.js', 'Redux', 'styled-components', 'react-reveal'],
         image: LandingPage,
         linkToCode: "https://github.com/AmineElkhalidy/tesla-clone",
