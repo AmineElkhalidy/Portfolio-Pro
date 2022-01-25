@@ -108,6 +108,16 @@ const PROJECTS = [
         linkToProject: "https://landing-page-startup.vercel.app/"
     },
 
+    {
+        id: 'project-05',
+        name: 'Tesla Clone',
+        description: "In this project, I tried to clone the official website of Tesla Electric motors.",
+        technologies: ['React.js', 'Redux', 'styled-components', 'react-reveal'],
+        image: LandingPage,
+        linkToCode: "https://github.com/AmineElkhalidy/tesla-clone",
+        linkToProject: "https://elon-tesla-clone.netlify.app/"
+    },
+
 ];
 
 const Projects = (props) => {
