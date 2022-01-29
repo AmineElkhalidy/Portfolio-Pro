@@ -34,7 +34,7 @@ const fadeInSubscription = ScrollService.currentScreenFadeIn.subscribe(fadeInScr
 
             <div className="contact-details">
 
-              <span className="contact-me-item"><i className="ri-phone-line contact-me-icon"> +2120708033586</i></span>
+              <span className="contact-me-item"><i className="ri-phone-line contact-me-icon"> +212708033586</i></span>
               <span className="contact-me-item"><i class="ri-mail-line contact-me-icon"></i> elkhalidyamine.a@gmail.com</span>
 
             </div>
