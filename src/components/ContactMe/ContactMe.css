@@ -49,11 +49,12 @@
     column-gap: 0.5rem;
     font-family: "Poppins Light";
     font-size: 1.05rem;
+    color: orangered;
 }
 
 .contact-me-icon
 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 .social-media-accounts
@@ -63,11 +64,6 @@
 }
 
 .social-media-accounts a
-{
-    color: aliceblue;
-}
-
-.social-media-accounts a:hover
 {
     color: orangered;
 }
